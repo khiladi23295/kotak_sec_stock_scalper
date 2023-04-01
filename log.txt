@@ -1,0 +1,21 @@
+Exception occurred while selecting stocks : single positional indexer is out-of-bounds
+Exception occurred while selecting stocks : single positional indexer is out-of-bounds
+Time of Execution: 2023-02-17 12:20:28.757817
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230217041912.', 'orderId': 2230217041912, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit: 156.1
+Stop Loss: 154.6
+Exception occurred while selecting stocks : single positional indexer is out-of-bounds
+Time of Execution: 2023-02-17 12:24:41.217011
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230217042506.', 'orderId': 2230217042506, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit: 156.0
+Stop Loss: 154.4
+Exception occurred while selecting stocks : single positional indexer is out-of-bounds
+Time of Execution: 2023-02-17 12:37:36.896313
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230217044336.', 'orderId': 2230217044336, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit: 156.6
+Stop Loss: 155.0
+Exception occurred while selecting stocks : single positional indexer is out-of-bounds
+Time of Execution: 2023-02-20 09:15:10.517949
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230220004960.', 'orderId': 2230220004960, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit: 0.0
+Stop Loss: 0.0
