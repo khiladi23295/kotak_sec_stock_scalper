@@ -64,9 +64,9 @@ for i in range(len(instrument_token_list)):
     margin_required_list.append(margin_required['Success'][i]['normal'])
 
 #----------------Calculating quantity------------------------------
-cash_balance = 5000  # Has kept the account balance fixed for now but in future will get it through a api call
-quantity_list = [math.floor((cash_balance/margin_required_list[0])),math.floor((cash_balance/margin_required_list[1]))]
-quantity_list     # Calculating the quantity that can be bought using the cash balance in the account
+# cash_balance = 5000  # Has kept the account balance fixed for now but in future will get it through a api call
+# quantity_list = [math.floor((cash_balance/margin_required_list[0])),math.floor((cash_balance/margin_required_list[1]))]
+# quantity_list     # Calculating the quantity that can be bought using the cash balance in the account
 
 #-------------------Placing the orders---------------------------
 counter=len(instrument_token_list)
