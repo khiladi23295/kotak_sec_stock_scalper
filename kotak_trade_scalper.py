@@ -76,10 +76,9 @@ for i in range(len(instrument_token_list)):
     margin_required_list.append(margin_required['Success'][i]['normal'])
 
 # ----------------Calculating quantity------------------------------
-# cash_balance = 5000  # Has kept the account balance fixed for now but in future will get it through a api call
-# quantity_list = [math.floor((cash_balance/margin_required_list[0])),
-# math.floor((cash_balance/margin_required_list[1]))]
-# quantity_list     # Calculating the quantity that can be bought using the cash balance in the account
+cash_balance = 1000  # Has kept the account balance fixed for now but in future will get it through a api call
+quantity_list = [math.floor((cash_balance/margin_required_list[0])), # change to list comprehension as no. of stocks fixed
+math.floor((cash_balance/margin_required_list[1]))] # Calculating the quantity that can be bought using the cash balance in the account
 
 # -------------------Placing the orders---------------------------
 counter = len(instrument_token_list)
@@ -160,4 +159,27 @@ while flag == 1:
     if now >= my_datetime:
         flag = 0  # will break because of time check when time is less
     time.sleep(1)
+    quantity = [1, 1]
+    while len(symbol_name) > 0:
+        order_report = client.order_report()
+        orders_df = pd.DataFrame()
+        for key, values in order_report["success"][0].items():
+            orders_df[key] = [order_report["success"][i][key] for i in range(len(order_report["success"]))]
+
+        remove_list = []
+        for i in range(len(symbol_name)):
+            temp_df = orders_df[orders_df["instrumentName"] == symbol_name[i]]
+            quant = quantity[i]
+            print(symbol_name[i])
+            if (list(temp_df["filledQuantity"]) in [[quant, quant, 0], [quant, 0, quant]]):
+                a = int(temp_df["orderId"].where(temp_df["filledQuantity"] == 0).dropna().iloc[0])
+                print(a)
+                client.cancel_order(order_id=a)
+                orders_df.drop(orders_df[orders_df["instrumentName"] == symbol_name[i]].index, inplace=True)
+                remove_list.append(symbol_name[i])
+            else:
+                print("TP/SL is not filled")
+        if len(remove_list) > 0:
+            for i in remove_list:
+                symbol_name.remove(i)
 client.logout()  # Logout the session created through  Kotak API
