@@ -12,11 +12,11 @@ Limitations in the code as of now:
 	   stock which is set by the user. It acts as a trigger price for a trade to be executed in either directions(LONG/SHORT).
 	   
 	3- StopLoss/TakeProfit are not cancelled automatically if price hits either of them. If either of the order is not cancelled, broker platform treats
-	   it as a new order and opens a new position. This will also be fixed in later versions.
+	   it as a new order and opens a new position. This will also be fixed in later versions.(Fixed)
 	   
 	4- Currently only 2 stocks can be traded but in future limit will be increased.
 	
-	5- Currently the code is cluttered, repetitive code will replaced with functions.
+	5- Currently the code is cluttered, repetitive code will replaced with functions.(Fixed)
 	
 	6- Since this is a test code, quantity has been fixed to 1. In future there will be 2 options available, either you can fix the trade amount per trade or 
 	   it will be calculated dynamically based on your account cash balance.
