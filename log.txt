@@ -19,3 +19,140 @@ Time of Execution: 2023-02-20 09:15:10.517949
 Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230220004960.', 'orderId': 2230220004960, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
 Take Profit: 0.0
 Stop Loss: 0.0
+Time of Execution: 2023-06-21 12:00:18.606964
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230621052808.', 'orderId': 2230621052808, 'price': 0, 'quantity': 30, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230621052814.', 'orderId': 2230621052814, 'price': 0, 'quantity': 11, 'tag': 'string'}}}
+Take Profit: 88.5
+Stop Loss: 87.6
+Take Profit: 33.4
+Stop Loss: 33.1
+Time of Execution: 2023-06-22 11:44:46.054832
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230622045424.', 'orderId': 2230622045424, 'price': 0, 'quantity': 30, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 2230622045426.', 'orderId': 2230622045426, 'price': 0, 'quantity': 11, 'tag': 'string'}}}
+Take Profit: 87.3
+Stop Loss: 86.4
+Take Profit: 33.2
+Stop Loss: 32.9
+Time of Execution: 2023-06-28 15:06:47.659219
+Exception occurred in placing order and the exception is :(500)
+Reason: Internal Server Error
+HTTP response body: <am:fault xmlns:am="http://wso2.org/apimanager"><am:code>101504</am:code><am:type>Status report</am:type><am:message>Runtime Error</am:message><am:description>Send timeout</am:description></am:fault>
+
+Exception occurred in placing order and the exception is :(500)
+Reason: Internal Server Error
+HTTP response body: <am:fault xmlns:am="http://wso2.org/apimanager"><am:code>101504</am:code><am:type>Status report</am:type><am:message>Runtime Error</am:message><am:description>Send timeout</am:description></am:fault>
+
+Time of Execution: 2023-07-04 10:33:34.429672
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230704029952.', 'orderId': 3230704029952, 'price': 0, 'quantity': 30, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230704029962.', 'orderId': 3230704029962, 'price': 0, 'quantity': 10, 'tag': 'string'}}}
+Take Profit: 91.8
+Stop Loss: 90.9
+Take Profit: 33.4
+Stop Loss: 33.0
+Time of Execution: 2023-07-07 10:32:14.214810
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230707029212.', 'orderId': 3230707029212, 'price': 0, 'quantity': 6, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230707029214.', 'orderId': 3230707029214, 'price': 0, 'quantity': 2, 'tag': 'string'}}}
+Take Profit: 94.2
+Stop Loss: 93.2
+Take Profit: 33.6
+Stop Loss: 33.2
+Time of Execution: 2023-07-10 10:41:38.154430
+Exception occurred in placing order and the exception is :(999108)
+Reason: Insufficient Margin. Kindly add funds or pledge your holdings for margin. Acceptable quantity:  0. 
+HTTP response body: {"fault":{"code":999108,"description":"-","message":"Insufficient Margin. Kindly add funds or pledge your holdings for margin. Acceptable quantity:  0. "}}
+
+Exception occurred in placing order and the exception is :(999108)
+Reason: Insufficient Margin. Kindly add funds or pledge your holdings for margin. Acceptable quantity:  0. 
+HTTP response body: {"fault":{"code":999108,"description":"-","message":"Insufficient Margin. Kindly add funds or pledge your holdings for margin. Acceptable quantity:  0. "}}
+
+Time of Execution: 2023-07-10 10:44:57.289274
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230710033382.', 'orderId': 3230710033382, 'price': 0, 'quantity': 6, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230710033390.', 'orderId': 3230710033390, 'price': 0, 'quantity': 2, 'tag': 'string'}}}
+Take Profit: 93.0
+Stop Loss: 92.1
+Take Profit: 33.2
+Stop Loss: 32.9
+Time of Execution: 2023-07-12 13:53:02.079057
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230712056768.', 'orderId': 3230712056768, 'price': 0, 'quantity': 6, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230712056770.', 'orderId': 3230712056770, 'price': 0, 'quantity': 2, 'tag': 'string'}}}
+Take Profit: 94.2
+Stop Loss: 93.2
+Take Profit: 33.2
+Stop Loss: 32.9
+Time of Execution: 2023-07-13 12:27:41.375993
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230713049330.', 'orderId': 3230713049330, 'price': 0, 'quantity': 6, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230713049334.', 'orderId': 3230713049334, 'price': 0, 'quantity': 2, 'tag': 'string'}}}
+Take Profit and Stop Loss for EQUITASBNK : 95.6 94.6
+Take Profit and Stop Loss for IRFC : 33.1 32.7
+Time of Execution: 2023-07-14 09:15:00.094483
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230714003612.', 'orderId': 3230714003612, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit and Stop Loss for APLAPOLLO : 0.0 0.0
+Time of Execution: 2023-07-14 11:09:34.491857
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230714034106.', 'orderId': 3230714034106, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit and Stop Loss for APLAPOLLO : 1362.3 1348.7
+Time of Execution: 2023-07-17 09:15:00.616597
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230717004776.', 'orderId': 3230717004776, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Take Profit and Stop Loss for APLAPOLLO : 0.0 0.0
+Time of Execution: 2023-07-18 09:15:00.248083
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230718003962.', 'orderId': 3230718003962, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Execution Price, InsToken, Index of the insToken, Quantity0 8355 1 0
+Take Profit and Stop Loss for APLAPOLLO : 0.0 0.0
+Time of Execution: 2023-07-18 10:41:41.789339
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230718031236.', 'orderId': 3230718031236, 'price': 0, 'quantity': 75, 'tag': 'string'}}}
+Positions Details--->> {'Success': [{'actualNetTrdValue': 0, 'averageStockPrice': 0, 'buyOpenQtyLot': 0, 'buyOpenVal': 0, 'buyTradedQtyLot': 1, 'buyTradedVal': 1379.95, 'buyTrdAvg': 1379.95, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 0, 'instrumentName': 'APLAPOLLO-EQ', 'instrumentToken': 8355, 'lastPrice': 1382, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 0, 'maxSingleOrderQty': 72660, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 6.9, 'netTrdQtyLot': 0, 'netTrdValue': 0, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 0.5, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': -3, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 1, 'sellTradedVal': 1376.95, 'sellTrdAvg': 1376.95, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'APLAPOLLO', 'totalStock': 0}, {'actualNetTrdValue': 2471.25, 'averageStockPrice': 32.95, 'buyOpenQtyLot': 0, 'buyOpenVal': 0, 'buyTradedQtyLot': 75, 'buyTradedVal': 2471.25, 'buyTrdAvg': 32.95, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 494.25, 'instrumentName': 'IRFC-EQ', 'instrumentToken': 14144, 'lastPrice': 32.9, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 150, 'maxSingleOrderQty': 3071098, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 0.4, 'netTrdQtyLot': 75, 'netTrdValue': 2471.25, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 1.23, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'IRFC', 'totalStock': 0}]}
+Time of Execution: 2023-07-19 09:15:00.878187
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230719003274.', 'orderId': 3230719003274, 'price': 0, 'quantity': 1, 'tag': 'string'}}}
+Positions Details--->> {'Success': [{'actualNetTrdValue': 0, 'averageStockPrice': 0, 'buyOpenQtyLot': 1, 'buyOpenVal': 1354.95, 'buyTradedQtyLot': 0, 'buyTradedVal': 0, 'buyTrdAvg': 0, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 270.99, 'instrumentName': 'APLAPOLLO-EQ', 'instrumentToken': 8355, 'lastPrice': 1354.95, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 1, 'maxSingleOrderQty': 74047, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 8.15, 'netTrdQtyLot': 0, 'netTrdValue': 0, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 0.61, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'APLAPOLLO', 'totalStock': 0}]}
+Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> APLAPOLLO 0 8355 1 1
+Take Profit and Stop Loss for APLAPOLLO : 0.0 0.0
+Time of Execution: 2023-07-20 09:15:00.240652
+Exception occurred in placing order and the exception is :(2000)
+Reason: Invalid Quantity, You must specify valid number of shares to trade.
+HTTP response body: {"fault":{"code":2000,"description":"-","message":"Invalid Quantity, You must specify valid number of shares to trade."}}
+
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230720003468.', 'orderId': 3230720003468, 'price': 0, 'quantity': 3, 'tag': 'string'}}}
+Positions Details--->> {'Success': [{'actualNetTrdValue': 98.65, 'averageStockPrice': 32.88333333333333, 'buyOpenQtyLot': 0, 'buyOpenVal': 0, 'buyTradedQtyLot': 3, 'buyTradedVal': 98.65, 'buyTrdAvg': 32.88333333333333, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 19.73, 'instrumentName': 'IRFC-EQ', 'instrumentToken': 14144, 'lastPrice': 32.9, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 6, 'maxSingleOrderQty': 3031893, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 0.05, 'netTrdQtyLot': 3, 'netTrdValue': 98.65, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 0.15, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'IRFC', 'totalStock': 0}]}
+Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> IRFC 32.88 14144 1 3
+Take Profit and Stop Loss for IRFC : 33.1 32.8
+Extra Order Cancelled for IRFC with orderid 3230720003596
+Time of Execution: 2023-07-21 09:15:00.342446
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230721003506.', 'orderId': 3230721003506, 'price': 0, 'quantity': 5, 'tag': 'string'}}}
+Exception occurred in placing order and the exception is :(146)
+Reason: Cannot place order,MIS order not allowed for this scrip **
+HTTP response body: {"fault":{"code":146,"description":"-","message":"Cannot place order,MIS order not allowed for this scrip **"}}
+
+Positions Details--->> {'Success': [{'actualNetTrdValue': 2500, 'averageStockPrice': 500, 'buyOpenQtyLot': 0, 'buyOpenVal': 0, 'buyTradedQtyLot': 5, 'buyTradedVal': 2500, 'buyTrdAvg': 500, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 2500, 'instrumentName': 'BORORENEW-EQ', 'instrumentToken': 24483, 'lastPrice': 500, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 10, 'maxSingleOrderQty': 199957, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 0.2, 'netTrdQtyLot': 5, 'netTrdValue': 2500, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 0.04, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'BORORENEW', 'totalStock': 0}]}
+Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> BORORENEW 500 24483 0 5
+Take Profit and Stop Loss for BORORENEW : 503.7 498.7
+Time of Execution: 2023-07-24 09:15:00.068569
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230724005594.', 'orderId': 3230724005594, 'price': 0, 'quantity': 18, 'tag': 'string'}}}
+Placed Order Details: {'Success': {'NSE': {'message': 'Your Order has been Placed and Forwarded to the Exchange: 3230724005658.', 'orderId': 3230724005658, 'price': 0, 'quantity': 13, 'tag': 'string'}}}
+Positions Details--->> {'Success': [{'actualNetTrdValue': 0, 'averageStockPrice': 0, 'buyOpenQtyLot': 13, 'buyOpenVal': 2397.2, 'buyTradedQtyLot': 0, 'buyTradedVal': 0, 'buyTrdAvg': 0, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 479.44, 'instrumentName': 'ASHOKLEY-EQ', 'instrumentToken': 790, 'lastPrice': 184, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 13, 'maxSingleOrderQty': 549055, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 2.15, 'netTrdQtyLot': 0, 'netTrdValue': 0, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 1.18, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'ASHOKLEY', 'totalStock': 0}, {'actualNetTrdValue': 2448.9, 'averageStockPrice': 136.05, 'buyOpenQtyLot': 0, 'buyOpenVal': 0, 'buyTradedQtyLot': 18, 'buyTradedVal': 2448.9, 'buyTrdAvg': 136.05, 'deliveryStatus': 12, 'denominator': 1, 'exchange': 'NN', 'expiryDate': '-', 'exposureMargin': 0, 'exposureMarginTotal': 0, 'grossUtilization': 489.78, 'instrumentName': 'CASTROLIND-EQ', 'instrumentToken': 941, 'lastPrice': 136.35, 'marginType': 'N', 'marketLot': 1, 'maxCODQty': 36, 'maxSingleOrderQty': 742830, 'maxSingleOrderValue': -1, 'multiplier': 1, 'netChange': 1.9, 'netTrdQtyLot': 18, 'netTrdValue': 2448.9, 'normalSqOffQty': 0, 'optionType': '- ', 'percentChange': 1.41, 'premium': 0, 'qtyUnit': '', 'rbiRefRate': 1, 'realizedPL': 0, 'segment': 'EQ', 'sellOpenQtyLot': 0, 'sellOpenVal': 0, 'sellTradedQtyLot': 0, 'sellTradedVal': 0, 'sellTrdAvg': 0, 'spanMargin': 0, 'spanMarginTotal': 0, 'spreadTotal': 0, 'strikePrice': 0, 'symbol': 'CASTROLIND', 'totalStock': 0}]}
+Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> ASHOKLEY 0 790 1 13
+Take Profit and Stop Loss for ASHOKLEY : 0.0 0.0
+Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> CASTROLIND 136.05 941 0 18
+Take Profit and Stop Loss for CASTROLIND : 137.0 135.7
