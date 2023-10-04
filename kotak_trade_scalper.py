@@ -107,14 +107,17 @@ while flag == 1:
                 exception_logs(msg, e)
         
         # ----------------Placing the TP/SL orders-----------------------------
-        time.sleep(2)
+        time.sleep(1)
         order_details = client.positions(position_type="TODAYS")
         exception_logs("Positions Details--->> ", order_details)
         for i in range(counter):    
             exec_price = round(order_details['Success'][i]['buyTrdAvg'], 2)
             instrumentToken = order_details['Success'][i]['instrumentToken']
             index_instrumentToken = instrument_token_list.index(instrumentToken)
-            quantity = quantity_list[index_instrumentToken] #order_details['Success'][i]['buyTradedQtyLot']
+            quantity = order_details['Success'][i]['buyTradedQtyLot'] # quantity_list[index_instrumentToken]
+            while quantity==0:
+                order_details = client.positions(position_type="TODAYS")
+                quantity = order_details['Success'][i]['buyTradedQtyLot']
             stock_name = symbol_name[index_instrumentToken]
             msg = "Stock Nanme, Execution Price, InsToken, Index of the insToken, Quantity -> "
             p = stock_name + " " + str(exec_price)+" "+str(instrumentToken)+" "+str(index_instrumentToken)+" "+str(quantity)
